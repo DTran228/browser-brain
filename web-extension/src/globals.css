@@ -1,0 +1,61 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    background: var(--bb-bg-gradient);
+    color: #fff;
+    overscroll-behavior: none;
+    margin: 0;
+}
+
+body {
+    width: 400px;
+    height: 565px;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+:root {
+    --bb-bg: #181c20;
+    /* Subtle blue in top right, no bright spot */
+    --bb-bg-gradient: radial-gradient(
+        circle at 100% 6%,
+        rgba(59,130,246,0.22) 0%,
+        #232946 14%,
+        #181c20 60%,
+        #181c20 100%
+    );
+    --bb-blue-accent: #3b82f6;
+    --bb-input-bg-gradient: linear-gradient(100deg, #232946 0%, #334155 100%);
+    --bb-user-bg-gradient: linear-gradient(100deg, #232946 0%, #3b82f6 100%);
+}
+/* Custom scrollbar for futuristic look */
+::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+}
+
+/* Glassmorphism utility */
+.glass {
+    background: rgba(36,39,42,0.85);
+    backdrop-filter: blur(8px);
+}
+
+/* Markdown code blocks */
+.markdown code, .markdown pre {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    background: #232946;
+    color: #3b82f6;
+    border-radius: 0.5rem;
+    padding: 0.2em 0.4em;
+}

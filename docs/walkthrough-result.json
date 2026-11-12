@@ -1,0 +1,137 @@
+{
+  "chrome": "Chrome/157.0.8103.51",
+  "fixture": "demo/alpha.html + demo/beta.html",
+  "sameTabNavigation": true,
+  "question": "What does the cobalt lantern protocol record?",
+  "persistedBatchesBeforeFailure": 2,
+  "lostResponses": 1,
+  "workerStopped": true,
+  "recoveredQueue": true,
+  "captureCount": 6,
+  "uploadRequests": 3,
+  "uniqueBatches": 2,
+  "cards": [
+    {
+      "url": "http://127.0.0.1:8765/beta.html?edition=field#shared",
+      "capturedAt": "2026-11-12T06:31:34.753000Z",
+      "hasViewLabel": true
+    },
+    {
+      "url": "http://127.0.0.1:8765/alpha.html?edition=lab#shared",
+      "capturedAt": "2026-11-12T06:31:33.879000Z",
+      "hasViewLabel": true
+    }
+  ],
+  "opened": "http://127.0.0.1:8765/beta.html?edition=field#shared",
+  "attempts": [
+    {
+      "batch": {
+        "batch_id": "025c19c1-0e6d-40b9-904a-42d4497e8c08",
+        "document_id": "CD8A332D0323A0B974A16AF1F3350748",
+        "observations": [
+          {
+            "captured_at": "2026-11-12T06:31:33.879Z",
+            "text": "Harbor field notes"
+          },
+          {
+            "captured_at": "2026-11-12T06:31:33.879Z",
+            "text": "The cobalt lantern protocol records nighttime harbor visibility."
+          },
+          {
+            "captured_at": "2026-11-12T06:31:33.879Z",
+            "text": "Harbor observers log the wind every evening."
+          }
+        ],
+        "url": "http://127.0.0.1:8765/alpha.html?edition=lab#shared"
+      },
+      "start": 1794465098898,
+      "committed": 1794465098937,
+      "status": 200,
+      "dropped": true
+    },
+    {
+      "batch": {
+        "batch_id": "66bf84ea-d8ac-4900-b45c-8893f7b31e0d",
+        "document_id": "A9B6AFC7E930E5B517A9294747E27102",
+        "observations": [
+          {
+            "captured_at": "2026-11-12T06:31:34.753Z",
+            "text": "Marsh field notes"
+          },
+          {
+            "captured_at": "2026-11-12T06:31:34.753Z",
+            "text": "The cobalt lantern protocol records nighttime harbor visibility."
+          },
+          {
+            "captured_at": "2026-11-12T06:31:34.753Z",
+            "text": "Marsh observers use reeds to mark the boardwalk."
+          }
+        ],
+        "url": "http://127.0.0.1:8765/beta.html?edition=field#shared"
+      },
+      "start": 1794465099759,
+      "committed": 1794465099801,
+      "status": 200,
+      "dropped": false
+    },
+    {
+      "batch": {
+        "batch_id": "025c19c1-0e6d-40b9-904a-42d4497e8c08",
+        "document_id": "CD8A332D0323A0B974A16AF1F3350748",
+        "observations": [
+          {
+            "captured_at": "2026-11-12T06:31:33.879Z",
+            "text": "Harbor field notes"
+          },
+          {
+            "captured_at": "2026-11-12T06:31:33.879Z",
+            "text": "The cobalt lantern protocol records nighttime harbor visibility."
+          },
+          {
+            "captured_at": "2026-11-12T06:31:33.879Z",
+            "text": "Harbor observers log the wind every evening."
+          }
+        ],
+        "url": "http://127.0.0.1:8765/alpha.html?edition=lab#shared"
+      },
+      "start": 1794465104057,
+      "committed": 1794465104064,
+      "status": 200,
+      "dropped": false
+    }
+  ],
+  "indexedPoints": 6,
+  "duplicateLogicalRecords": 0,
+  "indexingLatencyMs": [
+    {
+      "url": "http://127.0.0.1:8765/beta.html?edition=field#shared",
+      "text": "Marsh field notes",
+      "milliseconds": 5010
+    },
+    {
+      "url": "http://127.0.0.1:8765/alpha.html?edition=lab#shared",
+      "text": "The cobalt lantern protocol records nighttime harbor visibility.",
+      "milliseconds": 5028
+    },
+    {
+      "url": "http://127.0.0.1:8765/beta.html?edition=field#shared",
+      "text": "Marsh observers use reeds to mark the boardwalk.",
+      "milliseconds": 5010
+    },
+    {
+      "url": "http://127.0.0.1:8765/beta.html?edition=field#shared",
+      "text": "The cobalt lantern protocol records nighttime harbor visibility.",
+      "milliseconds": 5010
+    },
+    {
+      "url": "http://127.0.0.1:8765/alpha.html?edition=lab#shared",
+      "text": "Harbor field notes",
+      "milliseconds": 5028
+    },
+    {
+      "url": "http://127.0.0.1:8765/alpha.html?edition=lab#shared",
+      "text": "Harbor observers log the wind every evening.",
+      "milliseconds": 5028
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Browser Brain",
+  "description": "Find sources from pages you have read.",
+  "version": "1.1",
+  "manifest_version": 3,
+  "minimum_chrome_version": "120",
+  "incognito": "not_allowed",
+  "action": { "default_popup": "src/popup/popup.html" },
+  "background": { "service_worker": "src/background.ts" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "exclude_matches": ["http://127.0.0.1:8000/*", "http://localhost:8000/*"],
+      "js": ["src/content.ts"]
+    }
+  ],
+  "permissions": ["storage", "alarms"],
+  "host_permissions": ["http://127.0.0.1/*"]
+}
