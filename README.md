@@ -193,3 +193,9 @@ The automated walkthrough needs Chrome, the built `dist` folder, the `backend\.v
 </details>
 
 <p align="center"><sub>The cover is an AI-generated illustration. The demo screenshots show Browser Brain running in Chrome.</sub></p>
+
+---
+
+## Credits
+
+ElliottF05 created the original Browser Brain project and its core browser extension, backend, and search architecture. [Original Browser Brain repository](https://github.com/ElliottF05/browser-brain)
